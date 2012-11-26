@@ -1,3 +1,5 @@
 Ruby on rails tutorial: sample application
 
 This is the sample application for ruby on rails tutorial
+sample_app
+
