@@ -20,7 +20,7 @@ $ rvm get head && rvm reload
 $ chmod +x $rvm path/hooks/after cd bundler
 $ cd  ̃/rails projects/sample app
 $ bundle install --without production --binstubs=./bundler_stubs
-
+'''
 2. Add "bundler_stubs/" into .gitignore
 3. If add another command, you need to run "$ bundle install --binstubs=./bundler_stubs
 " again.
