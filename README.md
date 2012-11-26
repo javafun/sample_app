@@ -15,10 +15,13 @@ This code is fully working sample from Ruby on rails tutorial chapter 3. The boo
 
 # Eliminating bundle exec
 1. Run the following script
-	```bash
+	```Bash
 	$ rvm get head && rvm reload
+
 	$ chmod +x $rvm path/hooks/after cd bundler
+
 	$ cd  ̃/rails projects/sample app
+	
 	$ bundle install --without production --binstubs=./bundler_stubs
 	```
 2. Add "bundler_stubs/" into .gitignore
